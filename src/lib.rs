@@ -35,8 +35,7 @@ pub use text::{Align, Baseline, FontId, FontMetrics, TextMetrics};
 use text::{RenderMode, TextContext};
 
 mod image;
-use crate::image::ImageStore;
-pub use crate::image::{ImageFlags, ImageId, ImageInfo, ImageSource, PixelFormat};
+pub use crate::image::{ImageFlags, ImageId, ImageInfo, ImageSource, ImageStore, PixelFormat};
 
 mod color;
 pub use color::Color;
